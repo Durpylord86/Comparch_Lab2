@@ -333,6 +333,7 @@ module alu (input  logic [31:0] a, b,
        3'b110:  result = {upimm, 12b'0} // lui
        3'b000:  result = PC + 4// jalr,or is it "a + 4"?
 	     // Start adding the other operations here
+	// Will all of the branches be implemented here?
        default: result = 32'bx;
      endcase
 
