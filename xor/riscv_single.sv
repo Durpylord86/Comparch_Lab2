@@ -331,7 +331,7 @@ module alu (input  logic [31:0] a, b,
        3'b101:  result = sum[31] ^ v; // slt       
        3'b100:  result = a ^ b;       // xor
        3'b110:  result = {upimm, 12b'0} // lui
-       3'b000:  result = PC + 4// or is it "a + 4"?
+       3'b000:  result = PC + 4// jalr,or is it "a + 4"?
 	     // Start adding the other operations here
        default: result = 32'bx;
      endcase
