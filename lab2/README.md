@@ -30,4 +30,4 @@ To implement the code onto the FPGA board:
 11. Make sure the fpga board is turned on. Then, while holding BTN0, use Program Device in vivado.
 12. Once it load the waveform, let go of BTN0 to show the given waveform.
 
-The waveform given should look like waveform.pdf from the other given files.
+The waveform given should look like waveform.jpg from the other given files.
